@@ -41,15 +41,6 @@ header {
     margin: 20px 0px 0px -5px;
 }
 
-.div-header-menu1 {
-    display: inline-block;
-}
-
-.div-header-menu2 {
-    display: flex;
-    float: right;
-}
-
 header nav {
     margin: 70px;
 }
@@ -57,7 +48,21 @@ header nav {
 nav a {
     display: inline-flex;
     text-decoration: none;
-
     font-size: .9em;
     padding: 5px;
+}
+
+.container {
+    display: inline-flex;
+}
+
+#div-nav-menu1 {
+    display: inline-flex;
+}
+
+#div-nav-menu2 > a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .9em;
+    padding: 75px 0px 0px 0px;
 }
