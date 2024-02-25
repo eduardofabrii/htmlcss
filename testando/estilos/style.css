@@ -25,6 +25,8 @@ body {
 header {
     display: flex;
     background-color: var(--cor01);
+    max-width: 100%;
+    height: auto;
 }
 
 #div-header {
@@ -45,17 +47,16 @@ header nav {
 }
 
 nav a {
-    display: flex;
+    display: inline-block;
     text-decoration: none;
-    font-size: .9em;
-    padding: 5px;
-}
-
-.div-nav-menu1 {
-    display: inline-flex;
+    font-size: .85em;
+    margin: 1px;
+    padding: 10px;
 }
 
 .div-nav-menu2 {
-    display: inline;
-    padding: 75px;
+    text-decoration: none;
+    font-family: var(--font-family);
+    display: inline-block;
+    padding-left: 100px;
 }
